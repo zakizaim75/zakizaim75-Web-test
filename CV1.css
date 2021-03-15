@@ -10,51 +10,11 @@
      font-family: "lemon milk";
      src: url(../font/LEMONMILK-Regular.otf);
  }
- @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  
-@keyframes fadeInLeft {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-
-@keyframes fadeInDown {
-    from {
-      opacity: 0;
-      -webkit-transform: translate3d(0, -100%, 0);
-      transform: translate3d(0, -100%, 0);
-    }
-  
-    to {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-  }
-  
     
 body{
     background-image: url(../image/shattered.png);
     margin: 0;
     font-family: lemon milk;
-    color: white;
-    animation: fadeIn 4s;
 }
 .container{
     width: 90%;
@@ -87,13 +47,12 @@ body{
     float: left;
     margin-right: 15px;
     border-radius: 10px;
-    animation: fadeInDown 4s;
 }
 
 .isi{
     font-family: lemon milk;
     background-image: url(../image/spikes.png);
-    color: rgb(184, 16, 16);
+    color:black;
     margin-left: 190px;
     border-radius: 5px;
     margin-top: 10px;
@@ -133,6 +92,7 @@ hr{
     list-style: none;
 }
 
+
 .skill li{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -150,13 +110,13 @@ hr{
     margin-top: 15px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px; 
-    animation: fadeInDown 4s; 
 }
 
 .CV{
     background-color: rgb(184, 16, 16);
     margin: 0;
     padding: 30px;
+    color: white;
 }
 
 .sekolah{
@@ -194,8 +154,6 @@ hr{
 .foto-sekolah{
     height: 200px;
     width: 400px;
-    animation-delay: 10s;
-    animation: fadeInLeft 4s;
 }
 
 .contact{
@@ -223,7 +181,6 @@ hr{
     margin-left: 35px;
     margin-right: 35px;
     margin-bottom: 15px;
-    animation: fadeInDown 4s;
     border-radius: 15px;
     margin-top: 50px;
 }
@@ -250,3 +207,18 @@ hr{
     margin-left: 10px;
     margin-right: 12px;
 }
+
+.tombol {
+    background-color:rgb(184, 16, 16);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .container {
+	width:90%;
+	margin:0 auto;
