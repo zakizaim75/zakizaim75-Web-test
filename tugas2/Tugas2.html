@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas2</title>
+    <link rel="stylesheet" href="Tugas2.css">
+</head>
+<body>  
+    <table>
+        <thead>
+            <tr>
+                <th>NAMA</th>
+                <th>NIM</th>
+                <th>PRODI</th>
+                <th>EMAIL</th>
+                <th></th>
+            </tr>         
+        </thead>
+        <tbody id="tabel"></tbody>
+    </table><br><br><br>
+    
+    <div class="box">
+        <center>
+            <form id="frmUtama">
+            <ul>
+                <h2 class="jdl">
+                    MASUKKAN DATA DIRI
+                </h2>     
+                <li>
+                    <label for="nama" class="label-form">Nama</label>
+                    <input id="nama" name="nama" type="text" maxlength="25" required="">
+                </li>
+                <li>
+                    <label for="nim" class="label-form">NIM</label>
+                    <input id="nim" name="nim" type="text" maxlength="15" required="">
+                </li>
+                <li>
+                    <label for="prodi" class="label-form">Prodi</label>
+                    <input id="prodi" name="prodi" type="text" maxlength="25" required="">
+                </li>     
+                <li>
+                    <label for="email" class="label-form">Email</label>
+                    <input id="email" name="email" type="text" maxlength="25" required="">
+                </li>
+                <li><br><br>
+                    <input id="btnTambah" type="submit" value="Tambah" class="btn">
+                    <input type="button" id="btn" value="Hapus" class="btn" onclick="Hapus()">
+                </li>
+            </ul>
+            </form>
+        </center>
+    </div><br><br>
+    <center>
+    <a href="../index.html">
+    <button style="background-color: rgb(109, 11, 11);" class="utm"> kembali</button></a>
+</center><br><br><center>
+    <p id="pesan"></p></center>
+    <script src="Tugas2.js"></script>
+</body></html>
